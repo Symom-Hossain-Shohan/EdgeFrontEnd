@@ -30,13 +30,15 @@ function FirstComponent(props) {
       {fruits}
       {fun(3, 4)}
       {cmp} */}
-      {props.studentInfo.name}
+      {/* {props.studentInfo.name}
       {props.studentInfo.roll}
       {props.studentInfo.emoji}
       {props.studentInfo.fav_foods.map((fav_food)=>(
         <p>{fav_food}</p>
       ))}
-      {props.studentInfo.fav_color}
+      {props.studentInfo.fav_color} */}
+
+      <Button variant="contained">Button 1st component</Button>
 
 
     </div>
